@@ -69,3 +69,18 @@ Then your `widgets` in line 3 of snippet should be:
           input_name: 'net-speed'
         }
     ];
+
+## Defaults
+---
+### WebRTCs (Image/Video/Audio)
+Filename in Google Drive: `<domain> hh:mm:ss_dd-mm-yyyy.ext`
+
+Max Duration: `1 Minute`
+
+Output Format: `https://drive.google.com/uc?export=view&id=<file id>`
+
+### Internet Speed Test
+Output Format: `Down:Up:Ping`
+
+### Typing Speed Test
+Output Format: `<wpm>`
